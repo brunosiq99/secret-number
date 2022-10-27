@@ -1,0 +1,13 @@
+
+.win{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.win h2 {
+    font-size: 3rem;
+}
+.win h3{
+    font-size: 2rem;
+}

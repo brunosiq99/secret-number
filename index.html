@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Secreto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Roboto+Mono&family=Roboto:wght@300;400&family=Silkscreen&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="./assets/style/body.css">
+    <link rel="stylesheet" href="./assets/style/win.css">
+    <script src="https://kit.fontawesome.com/bdbaac8173.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/setSecretNumber.js"></script>
+    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/speechRecognition.js"></script>
+    <script src="./assets/js/validation.js"></script>
+</head>
+<body>
+    <h1 class="page-title">Acerte o Número Secreto</h1>
+    <h3 class="page-subtitle">
+        O número secreto está entre 
+        <span id="smaller-number"></span> 
+        e 
+        <span id="bigger-number"></span>
+    </h3>
+    <section class="game">
+        <p class="page-text">Você disse:</p>
+        <h4 id="guess" class="box"></h4>
+        <div class="game__message"></div>
+    </section>
+</body>
+</html>
